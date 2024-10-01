@@ -10,10 +10,13 @@ xampp activate
 virtualenv myenv
 
 myenv\Scripts\activate
+cd "student management"
+python main.py
+
+requirements:-
 
 pip install Flask-mail
 >pip install flask_sqlalchemy
 pip install mysqlclient
 pip install flask-login
-cd "student management"
-python main.py
+
